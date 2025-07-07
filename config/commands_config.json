@@ -1,0 +1,143 @@
+{
+    "shutdown": {
+      "action": "shutdown the PC immediately",
+      "command": "shutdown /s /t 0"
+    },
+    "list file": {
+      "action": "List all files",
+      "command": "dir"
+    },
+    "list formatted files": {
+      "action": "List all files in long format with permission",
+      "command": "dir /q"
+    },
+    "list file permissions": {
+      "action": "List all files in long format with permission",
+      "command": "icacls ."
+    },
+    "list hidden files": {
+      "action": "list hidden files",
+      "command": "dir /a:h"
+    },
+    "current working directory": {
+      "action": "Present Working Directory",
+      "command": "cd"
+    },
+    "what is the date today": {
+      "action": "Tells the date",
+      "command": "date /t"
+    },
+    "what is the day today": {
+      "action": "Tells the day",
+      "command": "echo %date:~0,3%"
+    },
+    "what is the time": {
+      "action": "Tells the time",
+      "command": "time /t"
+    },
+    "calendar": {
+      "action": "Displays the calendar",
+      "command": "calendar"
+    },
+    "what is the username": {
+      "action": "tells the user name",
+      "command": "echo %username%"
+    },
+    "create a random file": {
+      "action": "create a file with timestamp name",
+      "command": "echo. > random_%time:~0,2%%time:~3,2%%time:~6,2%.txt"
+    },
+    "go to home directory": {
+      "action": "go to home directory",
+      "command": "cd %userprofile%"
+    },
+    "go to root directory": {
+      "action": "go to root directory",
+      "command": "cd \\"
+    },
+    "go to my directory": {
+      "action": "go to home directory for the current user",
+      "command": "cd %userprofile%"
+    },
+    "run ps": {
+      "action": "snapshot of current processes",
+      "command": "tasklist"
+    },
+    "show network status": {
+      "action": "network configuration",
+      "command": "ipconfig"
+    },
+    "create a link": {
+      "action": "create a shortcut",
+      "command": "mklink"
+    },
+    "delete a file": {
+      "action": "delete a file",
+      "command": "del"
+    },
+    "remove a file": {
+      "action": "delete a file",
+      "command": "del"
+    },
+    "create a file": {
+      "action": "create a new file",
+      "command": "create_file"
+    },
+   
+    "open nano editor": {
+      "action": "open nano with specified name",
+      "command": "notepad"
+    },
+    "open gedit editor": {
+      "action": "open gedit with specified name",
+      "command": "notepad"
+    },
+    "open sublime editor": {
+      "action": "open sublime (subl) with specified name",
+      "command": "start subl"
+    },
+    "tell me the file type": {
+      "action": "displays a file type of specified name",
+      "command": "assoc"
+    },
+    "manual": {
+      "action": "manual of any command",
+      "command": "help"
+    },
+    "what is the status and configuration of network": {
+      "action": "Displays status and configuration of network",
+      "command": "netstat -a"
+    },
+    "make a new directory": {
+      "action": "make a new directory",
+      "command": "mkdir"
+    },
+
+    "list users": {
+      "action": "list all users",
+      "command": "net user"
+    },
+    "list all users": {
+      "action": "list all users",
+      "command": "net user"
+    },
+    "list user": {
+      "action": "list all users",
+      "command": "net user"
+    },
+    "who created you": {
+      "action": "tells the description of Awesome Group",
+      "command": "echo Created by an awesome developer!"
+    },
+    "random file": {
+      "action": "create a file with timestamp name",
+      "command": "echo. > random_%time:~0,2%%time:~3,2%%time:~6,2%.txt"
+    },
+
+    "exit": {
+    "action": "Exit the voice assistant",
+    "command": "exit"
+}
+
+  }
+  
